@@ -1,0 +1,33 @@
+.Nav .navigation-bar {
+  height: 80px;
+  background-color: white;
+  border-radius: 0;  
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 40px;
+}
+
+.nav-col {
+  display: inline-block;
+  width: 33.3%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 80px;
+}
+
+.nav-left {
+  text-align: left;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .nav-col {
+    width: 50%;
+  }
+
+  .nav-middle {
+    display: none;
+  }
+}

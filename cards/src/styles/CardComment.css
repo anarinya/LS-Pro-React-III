@@ -1,0 +1,8 @@
+.CardComment {
+  padding: 3px 0;
+}
+
+.CardComment .comment-author {
+  font-weight: 500;
+  margin-right: 5px;
+}

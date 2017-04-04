@@ -1,0 +1,25 @@
+.Search {
+  display: inline-block;
+  margin: auto;
+}
+
+.Search .search-box-input {
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  border-radius: 3px;
+  outline: none;
+  text-align: center;
+  width: 215px;
+  height: 28px;
+  background: url('../../public/img/search.png') no-repeat;
+  background-size: 10px;
+  background-position: 68px 8px;
+  background-color: #fafafa;
+}
+
+.Search .search-box-input:focus {
+  text-align: left;
+  padding-left: 27px;
+  background-position: 10px 8px;
+
+}

@@ -1,0 +1,12 @@
+.Logo {
+  display: inline-block;
+}
+
+.Logo .logo-image {
+  background: url('../../public/img/sprites.png') no-repeat -176px 0;
+  vertical-align: middle;
+  display: inline-block;
+  background-size: 352px 337px;
+  width: 176px;
+  height: 35px;
+}

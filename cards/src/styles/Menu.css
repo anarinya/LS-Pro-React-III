@@ -1,0 +1,40 @@
+.Menu {
+  display: inline-block;
+}
+
+.Menu .menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Menu .menu-list li {
+  display: inline-block;
+  padding-left: 35px;
+}
+
+
+.Menu .menu-explore, .Menu .menu-feed, .Menu .menu-profile {
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url('../../public/img/sprites.png');
+  background-size: 352px 337px;
+  background-repeat: no-repeat;
+}
+.Menu .menu-explore {
+  background-position: -226px -267px;
+  width: 22px;
+  height: 22px;
+}
+
+.Menu .menu-feed {
+  background-position: -1px -268px;
+  width: 22px;
+  height: 20px;
+}
+
+.Menu .menu-profile {
+  background-position: -201px -267px;
+  width: 22px;
+  height: 21px;
+}

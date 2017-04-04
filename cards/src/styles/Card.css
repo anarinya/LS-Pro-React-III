@@ -1,0 +1,55 @@
+.Card {
+  margin: auto;
+  margin-bottom: 60px;
+  max-width: 600px;
+  width: 600px;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+}
+
+.Card .card-header {
+  padding-left: 15px;
+  padding-right: 20px;
+  border-bottom: 1px solid #e7e7e7;
+  height: 65px;
+  line-height: 65px;
+}
+
+.Card .header-left {
+  float: left;
+}
+
+.Card .header-right {
+  float: right;
+  color: #a5a7aa;
+  font-weight: 400;
+}
+
+.Card .username {
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.Card .card-area {
+  width: 598px;
+  height: 598px;
+  overflow: hidden;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.Card .card-image {
+  width: 100%;
+}
+
+.Card .card-body {
+  padding: 20px 20px 0 20px;
+}
+
+.Card .CardLikes {
+  font-weight: 500;
+}
+
+.Card .card-comments {
+  margin-top: 10px;
+}

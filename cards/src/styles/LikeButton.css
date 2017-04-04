@@ -1,0 +1,8 @@
+.LikeButton {
+  background: url('../../public/img/sprites2.png') no-repeat -83px -274px;
+	width: 22px;
+	height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}

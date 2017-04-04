@@ -1,0 +1,9 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 93%;
+  margin: auto;
+}

@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "post_id": 1,
+      "post_author": {
+        "user_id": 1,
+        "user_name": "muffin",
+        "user_email": "test@gmail.com"
+      },
+      "post_date": "2017-01-01 00:00:00.0000",
+      "likes": "2,397",
+      "description": "a description goes here",
+      "keywords": [
+        "one", 
+        "two", 
+        "three", 
+        "four", 
+        "five"],
+      "comments": [
+        {
+          "comment_id": 1,
+          "comment_author": {
+            "user_id": 2,
+            "user_name": "cookie"
+          },
+          "content": "cute!"
+        },
+        {
+          "comment_id": 2,
+          "comment_author": {
+            "user_id": 3,
+            "user_name": "cake"
+          },
+          "content": "roses are red, violets are blue, I am a pupper and I love you!!!"
+        }
+      ]
+    }, {
+      "post_id": 2,
+      "post_author": {
+        "user_id": 1,
+        "user_name": "muffin",
+        "user_email": "test@gmail.com"
+      },
+      "post_date": "2017-03-30 00:00:00.000",
+      "likes": "5,000",
+      "description": "some random description goes here",
+      "keywords": [
+        "dog",
+        "cat",
+        "whatever"
+      ],
+      "comments": [
+        {
+          "comment_id": 3,
+          "comment_author": {
+            "user_id": 5,
+            "user_name": "broccoli"
+          },
+          "content": "some sort of comment"
+        }
+      ]
+    }, {
+      "post_id": 3,
+      "post_author": {
+        "user_id": 1,
+        "user_name": "muffin",
+        "user_email": "test@gmail.com"
+      },
+      "post_date": "2017-04-04 00:00:00.000",
+      "likes": "697",
+      "description": "Doggos",
+      "keywords": [
+        "dog",
+        "cat",
+        "whatever"
+      ],
+      "comments": [
+        {
+          "comment_id": 4,
+          "comment_author": {
+            "user_id": 5,
+            "user_name": "broccoli"
+          },
+          "content": "some sort of comment"
+        }
+      ]
+    }
+  ]
+}

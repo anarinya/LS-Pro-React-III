@@ -1,0 +1,38 @@
+.CardFooter {
+  border-top: 1px solid #efefef;
+  color: #999999;
+  margin: 20px;
+  padding: 10px 3px 10px;
+  height: 65px;
+  line-height: 65px;
+}
+
+.AddComment {
+  display: inline-block;
+}
+
+.AddComment .new-comment {
+  border: 0;
+  height: 20px;
+}
+
+.AddComment .new-comment:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.CardFooter .footer-menu {
+  display: inline-block;
+  background-color: green;
+	background: url('../../public/img/sprites2.png') no-repeat -319px -57px;
+	width: 23px;
+	height: 5px;
+}
+
+.CardFooter .footer-left {
+  float: left;
+}
+
+.CardFooter .footer-right {
+  float: right;
+}
