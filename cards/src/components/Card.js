@@ -14,7 +14,7 @@ export default class Card extends Component {
 
   render() {
     const { post_author, post_date, post_id, post_description, comments, likes } = this.props.post;
-    const img = `../photos/${post_id}.jpg`;
+    const img = `../../public/photos/${post_id}.jpg`;
 
     return (
       <div className="Card">
